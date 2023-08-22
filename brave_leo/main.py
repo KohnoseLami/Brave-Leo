@@ -1,5 +1,5 @@
 import requests
-from models import LeoCompleteResponse
+from .models import LeoCompleteResponse
 
 class Leo:
     def __init__(self, brave_key = 'qztbjzBqJueQZLFkwTTJrieu8Vw3789u', base_url = 'https://ai-chat.bsg.brave.com'):
