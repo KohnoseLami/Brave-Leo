@@ -1,1 +1,1 @@
-from main import Leo
+from .main import Leo
