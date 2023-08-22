@@ -8,7 +8,7 @@ with open('requirements.txt') as f:
 
 setup(
     name="brave-leo",
-    version="0.1.0",  # バージョン番号
+    version="0.1.1",
     author="Kohnose Lami",
     author_email="info@lami.zip",
     description="Python wrapper for Brave's Leo AI chat functionality based on Llama",
