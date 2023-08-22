@@ -14,7 +14,7 @@ setup(
     description="Python wrapper for Brave's Leo AI chat functionality based on Llama",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/brave-leo",
+    url="https://github.com/KohnoseLami/brave-leo",
     packages=find_packages(),
     classifiers=[
         "License :: OSI Approved :: MIT License",
@@ -23,6 +23,7 @@ setup(
         "Programming Language :: Python :: 3.7",
         "Programming Language :: Python :: 3.8",
         "Programming Language :: Python :: 3.9",
+        "Programming Language :: Python :: 3.10",
     ],
     install_requires=requirements,
     python_requires=">=3.6",
