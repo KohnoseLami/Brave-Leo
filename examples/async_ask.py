@@ -1,9 +1,9 @@
 import asyncio
 from brave_leo import AsyncLeo
 
-leo = AsyncLeo()
-
 async def main():
+    leo = AsyncLeo()
+
     # It initially contains Brave's specified System Prompt.
     response = leo.ask('What is the weather like today?')
     print(response.completion)
