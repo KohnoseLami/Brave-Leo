@@ -14,6 +14,7 @@ pip install brave-leo
 
 Here's a quick example of how to use "brave-leo" to interact with Brave's Leo AI:
 
+Sync,
 ```python
 from brave_leo import Leo
 
@@ -24,6 +25,24 @@ leo = Leo()
 response = leo.ask('What is the weather like today?')
 
 print("Leo:", response.completion)
+```
+
+Async,
+```python
+import asyncio
+from brave_leo import AsyncLeo
+
+# Initialize the Leo instance
+leo = AsyncLeo()
+
+async def main():
+    # Ask to Leo and get a response
+    response = await leo.ask('What is the weather like today?')
+    print("Leo:", response.completion)
+    # Close Session
+    await leo.close()
+
+asyncio.run(main())
 ```
 
 ## License
