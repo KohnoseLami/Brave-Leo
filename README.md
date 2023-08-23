@@ -32,13 +32,14 @@ Async,
 import asyncio
 from brave_leo import AsyncLeo
 
-# Initialize the Leo instance
-leo = AsyncLeo()
-
 async def main():
+    # Initialize the Leo instance
+    leo = AsyncLeo()
+
     # Ask to Leo and get a response
     response = await leo.ask('What is the weather like today?')
     print("Leo:", response.completion)
+
     # Close Session
     await leo.close()
 
